@@ -1,0 +1,55 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUM1ekNDQWMrZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJeU1ESXlOVEUyTWpnME1Gb1hEVE15TURJeU16RTJNamcwTUZvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBTnFOCkFmY0RmQURNb1M3VnA5K1pWc1Q1Mm5sSVVTMmVsbkp0RnFMYTRyV1Q1U0E2MUIrczZDdHNVaHZzc28zaDlnd2EKWnllUjVrQ0VpeExSOGlSdU9RRVVsb0k0bzhxZjg5UW5xS1RJMG43WVBtQ2F1N1c0bXI1djVLWXZKYSthWFVFOQpCeVVLUEt4UWpDWldHZzhXMFlsbmZVV2lNUlVXMlNDb2tJTDJJTUcxV1VHOWdIVTZXb3FoTDJwZDEzdFpDeEUvCnhVb1g2SU12L2h5UTloODZMbTZvTXQxS3IyT1pDQ1RmYXlUQlRlZnJrVDBDcEcxSUxpWXIrK1d3SXFLaTNDVUsKK29NbHdNR1AzRTcvUmhNbkM4bUxBeVdVdW5QazVoNUJ3eE02d2hudE9CMFg2WGYrYzR5SlIwM2JCSDdHbUxpMgpoNk5ONFpYek9pby9ZM0xVWXMwQ0F3RUFBYU5DTUVBd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0hRWURWUjBPQkJZRUZENFpuWjJJRWJFemMvdytMZUxaeUtIMVFBb2hNQTBHQ1NxR1NJYjMKRFFFQkN3VUFBNElCQVFBSnJDOVJ3ZkRKLzhTSkRJS21QRXh4S0tOa3RKTzRhdVArNXlJaklDTmtVZjd4aUNCSQpkTkQvYVl4Nks0R1EwVHJXMVJwamliOGx3RFdNSW9nVUhoZkNJdHlzaTM4VjVNODhkaDVLVjgveDh3b3duT2NXCnFiVis3YkFZUm9lT09qYlpHTDUwQngvODRnRjRqaW1NMHpZMVphY09oVDBUYk9FdSswWFhBS29aeThnVzRIRmoKZHlwTlVlajJqZE9OcDV4amx0VE1lTnkxaWc2aXVLSVNGR3RpaVpOKzVXeERvK3V3K3Z3TjREbGdhTTFqanUzYgphcmxGUnBqbDlGdjdZT3o3QW02MWVQR2N4K21iT0dFMDFQVzV2V29UTnpxUjN6ejdoa2tKNmxBTzJhM1ZFcTJuCnp3N2drRFNZS0lKZlRVT1Z2eHVpL2QrNjl6aGpuaUhsWWdsTQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://3CC641C92481A7924786229F13745E0D.yl4.ap-south-1.eks.amazonaws.com
+  name: arn:aws:eks:ap-south-1:681020559667:cluster/automax-iot-cltr
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUM1ekNDQWMrZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJeU1ESXlPREV3TURjd04xb1hEVE15TURJeU5qRXdNRGN3TjFvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBT0xDCm9YY2tlVFI0VnU0MU8xYkF5OTUwSVVaR1dWK2p3UXdCNC90NVZOM09tYkdudnBUZHlEL1QrR3p2cWorN2Y2M2MKNzBiTEprMHc3V2NhT0F4WUtDOGoxVlBQR2pEd0MyZFlTYW4zL0RlYzI0dm1FRmhNTVYyQi9VVGtZWEdJanVxZgpvSE1UaWdMOG5qQWhqWXB0cktKclduRDFQaHF2M3NzQmM3NWxIcGJnWVpyRWFLTG5Hb3RmdzdLOW81RmZvckY2Cjg3Z2dFNkVHYWJYTndEZjZzTWZuRzF6ZjNyTERpRytSTlJId3d1K2l6RDdEVDNLb0sydHZhMWhzNjFCaDFNVmYKTXNJWnNFZFgyUUlpVDF2bWo4bkloWTA1UFF2d0lYdUpKalR0Ykl0T2RQaGdXNVlZMGliWjhKa3lpNnpJbkplNQplcWhyck1Sc2pIaW9iYnZwMkU4Q0F3RUFBYU5DTUVBd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0hRWURWUjBPQkJZRUZKOG1tbFdRUWJjRk1OZDhJdGNvUnF5akFJNUJNQTBHQ1NxR1NJYjMKRFFFQkN3VUFBNElCQVFERzRVZndqdkwrUXF5Tzh6RVgzMnJvRzJWSENXWHNzV05vU3ZoSFpldy9IU3Bma2FVOApLeFZEeVdJb3k0c0hobmRTdDgxbUNkUHk5NEp4bW1odHNrWDlzcVlYcjA0VUduQVU2R3NuQjZpa05vdnpKUUYrCm1wTURDR3FLWlB0N0M2NU56bzRXNm9BVGlsNlVwWnNCanVKSlBuUG1DT1V2c0V0Vmp3czRaSE50RFQ3dFNrSUIKR0QyS1BFTlBVd09mblpHdDBBa2l2dzhrdWlkLzlmN0o5bjl0MURicjJvYUdJVDh0eC9FRmlKU0M3dG5KZ0JCYwpTSlgrMm54MVFDeHAydVB4cUVVY2FidEpRaitXME5xQmNjSTZaeUpLSG1xMXErN1FUeUFrYkwyVE81N1Z1ZkoxCm1aYS9neHI1eFF2ZHRmS1Nxb3ZLQittTXVIdHdiWWlJWjhtMwotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://37D4FAC3A62F7BC99D3E7E1A2350E422.yl4.ap-south-1.eks.amazonaws.com
+  name: automax-iot-cltr.ap-south-1.eksctl.io
+contexts:
+- context:
+    cluster: arn:aws:eks:ap-south-1:681020559667:cluster/automax-iot-cltr
+    user: arn:aws:eks:ap-south-1:681020559667:cluster/automax-iot-cltr
+  name: arn:aws:eks:ap-south-1:681020559667:cluster/automax-iot-cltr
+- context:
+    cluster: automax-iot-cltr.ap-south-1.eksctl.io
+    user: k.surya@automax-iot-cltr.ap-south-1.eksctl.io
+  name: k.surya@automax-iot-cltr.ap-south-1.eksctl.io
+current-context: k.surya@automax-iot-cltr.ap-south-1.eksctl.io
+kind: Config
+preferences: {}
+users:
+- name: arn:aws:eks:ap-south-1:681020559667:cluster/automax-iot-cltr
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - --region
+      - ap-south-1
+      - eks
+      - get-token
+      - --cluster-name
+      - automax-iot-cltr
+      - --role
+      - eksctl-automax-iot-cltr-nodegroup-NodeInstanceRole-1HOEC5VVSQYQR
+      command: aws
+      env: null
+      provideClusterInfo: false
+- name: k.surya@automax-iot-cltr.ap-south-1.eksctl.io
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - eks
+      - get-token
+      - --cluster-name
+      - automax-iot-cltr
+      - --region
+      - ap-south-1
+      command: aws
+      env:
+      - name: AWS_STS_REGIONAL_ENDPOINTS
+        value: regional
+      provideClusterInfo: false
